@@ -26,6 +26,9 @@ services:
       - mongodb
     ports:
       - "3000:3000"
+    volumes:
+      - ./seed_flag:/app/.seeded_vol
+
 
   mongo-express:
     image: mongo-express:latest
