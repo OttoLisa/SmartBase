@@ -32,6 +32,8 @@ docker compose up --build
 
 Die API ist anschliessend unter `http://localhost:3000` erreichbar.
 
+Die Swagger Doku ist unter `http://localhost:3000/swagger` verfügbar.
+
 ---
 
 ## MQTT aktivieren (optional)
